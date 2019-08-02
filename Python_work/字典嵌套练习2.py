@@ -1,0 +1,22 @@
+cities={
+    'london':{
+        'country':'england',
+        'population':20000000,
+        'fact':'gay'
+        },
+    'beijing':{
+        'country':'china',
+        'population':30000000,
+        'fact':'户口'
+        },
+    'newyork':{
+        'country':'USA',
+        'population':25000000,
+        'fact':'有钱',
+        },
+    }
+for city,message in cities.items():
+	print('\n'+"城市名词为："+str(city.title()))
+	print('城市所在国家为：'+str(message['country'].title()))
+	print('城市人口为：'+str(message['population']))
+	print('城市第一印象为：'+str(message['fact']))
